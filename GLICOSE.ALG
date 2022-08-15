@@ -5,11 +5,20 @@ Algoritmo "glicose"
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 8/14/2022
 Var
-// Seção de Declarações das variáveis 
-
-
+glicose : real
+   
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-
+   escreval("Informe a sua glicose:")
+   leia(glicose)
+   
+   se glicose <= 100 entao
+      escreval("Sua Glicose no sangue é considerada normal")
+   senao
+      se glicose <= 140 entao
+         escreval("Sua glicose sanguinea está alta")
+      senao
+         escreva("Você está em quadro de diabetes! Procure um médico")
+      fimse
+   fimse
 
 Fimalgoritmo

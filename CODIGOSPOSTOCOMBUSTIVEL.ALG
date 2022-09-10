@@ -31,7 +31,7 @@ Inicio
    fimenquanto
    
    escreval("MUITO OBRIGADO!")
-   escreval("ARROZ: ", c1)
+   escreval("ALCOOL: ", c1)
    escreval("GASOLINA: ", c2)
    escreval("DIESEL: ", c3)
    

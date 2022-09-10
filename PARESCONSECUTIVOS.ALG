@@ -20,6 +20,7 @@ Inicio
          X <- X + 1
       fimse
 
+      // SOMA <- X + (X + 2) + (X + 4) + (X + 6) + (X + 8)
       soma <- 5 * X + 20
       escreval("SOMA = ", soma)
 

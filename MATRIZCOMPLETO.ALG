@@ -19,7 +19,7 @@ Inicio
       
       para i de 0 ate n-1 faca
          para j de 0 ate n-1 faca
-             escreval("ELEMENTO [", i, ",", j, "]: ")
+             escreva("ELEMENTO [", i, ",", j, "]: ")
              leia(mat[i,j])
          fimpara
       fimpara
@@ -34,10 +34,11 @@ Inicio
          fimpara
       fimpara
       
-      escreval("soma dos positivos: ", soma)
-      
       escreval
-      escreval("Qual linha da matriz vocÊ quer consultar? ")
+      escreval("soma dos positivos: ", soma)
+
+      escreval
+      escreva("Qual linha da matriz vocÊ quer consultar? ")
       leia(m)
       
 
@@ -45,28 +46,30 @@ Inicio
 
       
       para j de 0 ate n-1 faca
-        escreva(mat[m,j])
+        escreva(mat[m,j], " ")
       fimpara
-      
       escreval
-      escreval("Qual a coluna que você quer consultar? ")
+
+      escreval
+      escreva("Qual a coluna que você quer consultar? ")
       leia(c)
       
-
+      escreval
       escreva("COLUNA ESCOLHIDA: ")
 
       
       para i de 0 ate n-1 faca
-         escreva(mat[i,c])
+         escreva(mat[i,c], " ")
       fimpara
-      
+      escreval
+
       escreval
       escreva("ELEMENTOS DA DIAGONAL PRINCIPAL DA MATRIZ: ")
-      escreval
       
       para i de 0 ate n-1 faca
          escreva(mat[i,i])
       fimpara
+      escreval
       
       raiz <- 0
       
@@ -79,14 +82,14 @@ Inicio
            fimse
         fimpara
       fimpara
+
+      escreval
       
-      escreval
-      escreva("MATRIZ COM ELEMENTOS NEGATIVOS AO QUADRADO: ")
-      escreval
+      escreval("MATRIZ COM ELEMENTOS NEGATIVOS AO QUADRADO: ")
       
       para i de 0 ate n-1 faca
         para j de 0 ate n-1 faca
-             escreva(matQuadrada[i,j])
+             escreva(matQuadrada[i,j], " ")
         fimpara
         escreval
       fimpara
